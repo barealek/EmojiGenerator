@@ -1,2 +1,2 @@
 # EmojiGenerator
-Generate simplistic and colorful emojis from any SVG, primarily made for Discord.
+Generér enkle og farverige emojis fra enhver SVG fil, primært egnet til Discord emojis.
