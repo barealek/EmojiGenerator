@@ -7,7 +7,7 @@ from functions import get_dict_option_from_user, print_welcome, ensure_dir
 
 import os
 import time
-import math
+
 
 TRANSPARENCY = 0.25  # i procent
 MASK_URL = "https://github.com/barealek/EmojiGenerator/blob/main/assets/mask.jpg?raw=true"
