@@ -1,3 +1,10 @@
+# Python
 *venv/
 *__pycache__/
+
+# PyCharm files
 *.idea
+
+# Project specific
+/in/
+/out/
