@@ -1,3 +1,4 @@
 cairosvg
 pillow
 requests
+fuzzyfinder

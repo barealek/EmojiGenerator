@@ -5,6 +5,11 @@
 # PyCharm files
 *.idea
 
+# PyInstaller
+/build/
+/dist/
+/*.spec
+
 # Project specific
 /in/
 /out/
