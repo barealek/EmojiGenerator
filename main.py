@@ -3,7 +3,7 @@ import cairosvg
 import requests
 from io import BytesIO
 
-from functions import get_dict_option_from_user, print_welcome, ensure_dir
+from functions import fuzzyfind_value_from_list, print_welcome, ensure_dir
 
 import os
 import time
@@ -46,12 +46,20 @@ def main():
 
     print("Vælg den farve som du vil generere emojierne i:")
 
-    color_name, color = get_dict_option_from_user(COLORMAP)
+    color_name = fuzzyfind_value_from_list(list(COLORMAP.keys()))
+    color = COLORMAP[color_name]
 
     ensure_dir("in")
 
     print("Læg alle de SVG filer du vil konvertere ind i mappen 'in' og tryk enter.")
     input()
+
+    if len(os.listdir("in")) == 0:
+        print("Du har ikke lagt nogen SVG filer i mappen 'in'... dumme\nFind nogen fra https://fontawesome.com/search")
+        for i in range(5, 0, -1):
+            print(f"Lukker om {i} sekunder...", end="\r")
+            time.sleep(1)
+        exit()
 
     print("Klargører basale assets...")
 
