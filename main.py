@@ -48,6 +48,7 @@ def main():
 
     color_name = fuzzyfind_value_from_list(list(COLORMAP.keys()))
     color = COLORMAP[color_name]
+    print(f"Farve valgt: {color_name}\n")
 
     ensure_dir("in")
 
