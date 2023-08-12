@@ -59,6 +59,10 @@ def fuzzyfind_value_from_list(options: list[str, ...]) -> str:
             return sys.exit()
 
         if key == b"\r":  # Enter
+            if search_query in options:
+                _reset_line()
+                return search_query
+
             result_candidates = _fuzzyquery(search_query, options)
             if len(result_candidates) == 1:
                 _reset_line()
