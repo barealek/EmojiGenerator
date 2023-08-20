@@ -17,3 +17,10 @@ Her er et par eksempler på, hvad man kan lave med programmet:
     <img src="https://github.com/barealek/EmojiGenerator/blob/main/eksempler/shield.png?raw=true" height="64" width="64">
     <img src="https://github.com/barealek/EmojiGenerator/blob/main/eksempler/snowflake.png?raw=true" height="64" width="64">
 </p>
+
+---
+
+Hvis du har lyst til selv at bygge programmet, skal du installere Python (>3.9), MinGW-w64 samt GTK3 toolkittet.
+Derefter kan du klone programmet fra GitHub, redigere i det hvis du ønsker, og så køre det.
+
+Hvis du ønsker at bidrage til projektet er du velkommen til at åbne en pull request.
