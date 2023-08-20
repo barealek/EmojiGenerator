@@ -4,6 +4,7 @@ import requests
 from io import BytesIO
 
 from functions import fuzzyfind_value_from_list, print_welcome, ensure_dir
+import config
 
 import os
 import time
@@ -12,33 +13,11 @@ import time
 TRANSPARENCY = 0.25  # i procent
 MASK_URL = "https://github.com/barealek/EmojiGenerator/blob/main/assets/mask.jpg?raw=true"
 
-DIMENSIONS = (512, 512)
-ICON_SIZE = 3 / 5
-CALCULATED_ICON_SIZE = (int(DIMENSIONS[0] * ICON_SIZE), int(DIMENSIONS[0] * ICON_SIZE))  # 2/3 af billedet
+DIMENSIONS = (config.DIMENSIONS,)*2
+ICON_SIZE = config.ICON_SIZE
+CALCULATED_ICON_SIZE = (int(DIMENSIONS[0] * ICON_SIZE), int(DIMENSIONS[0] * ICON_SIZE))
 
-COLORMAP = {
-    "grå": (60, 64, 72),
-    "hvid": (240, 240, 240),
-
-    "lime": (88, 240, 0),
-    "grøn": (0, 224, 157),
-    "mint": (170, 255, 195),
-
-    "brun": (194, 124, 14),
-    "orange": (255, 125, 40),
-
-    "blå": (75, 201, 255),
-    "cyan": (0, 255, 255),
-
-    "pink": (255, 161, 251),
-    "lilla": (90, 66, 210),
-
-    "gul": (255, 230, 0),
-
-    "rød": (255, 67, 78),
-    "lys rød": (255, 92, 95),
-
-}
+COLORMAP = config.COLORS
 
 
 def main():
