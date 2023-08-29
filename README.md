@@ -7,7 +7,7 @@ Vær venlig at respekter ejerskabet af koden, og lade vær med at frigive det so
 
 ---
 
-Her er et par eksempler på, hvad man kan lave med programmet:
+Her er et par eksempler på, hvad man kan lave med programmet. Ikonerne er fra FontAwesome:
 <p>
     <img src="https://github.com/barealek/EmojiGenerator/blob/main/eksempler/battery.png?raw=true" height="64" width="64">
     <img src="https://github.com/barealek/EmojiGenerator/blob/main/eksempler/cloud.png?raw=true" height="64" width="64">
