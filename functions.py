@@ -22,7 +22,7 @@ def get_dict_option_from_user(options: dict):
             selected = int(candidate)
             return candidate.lower(), list(options.values())[selected - 1]
         except (ValueError, IndexError):
-            print("Det var ikke en mulighed. Prøv igen.")
+            print("That wasn't an option. Try again!")
 
 
 def fuzzyfind_value_from_list(options: list[str, ...]) -> str:
@@ -54,7 +54,7 @@ def fuzzyfind_value_from_list(options: list[str, ...]) -> str:
         key = getch()
         if key in (b"\x1b", b"\x03"):  # Hvis man klikker CTRL + C eller ESCAPE
             _reset_line()
-            print("Escape klikket, afslutter...")
+            print("Escape was pressed. Exiting...")
             sleep(2)
             return sys.exit()
 
@@ -93,7 +93,7 @@ def print_welcome():
     title = """
 ░█▀▀░█▄█░█▀█░▀▀█░▀█▀░█▀▀░█▀▀░█▀█░░░░█▀▀░█░█░█▀▀
 ░█▀▀░█░█░█░█░░░█░░█░░█░█░█▀▀░█░█░░░░█▀▀░▄▀▄░█▀▀
-░▀▀▀░▀░▀░▀▀▀░▀▀░░▀▀▀░▀▀▀░▀▀▀░▀░▀░▀░░▀▀▀░▀░▀░▀▀▀ af barealek
+░▀▀▀░▀░▀░▀▀▀░▀▀░░▀▀▀░▀▀▀░▀▀▀░▀░▀░▀░░▀▀▀░▀░▀░▀▀▀ by barealek
 
 """
     print(title)
