@@ -20,7 +20,7 @@ Her er et par eksempler på, hvad man kan lave med programmet. Ikonerne er fra F
 
 ---
 
-Hvis du har lyst til selv at bygge programmet, skal du installere Python (>3.9), MinGW-w64 samt GTK3 toolkittet.
-Derefter kan du klone programmet fra GitHub, redigere i det hvis du ønsker, og så køre det.
+Hvis du har lyst til selv at compile programmet, skal du installere Python (>3.9), MinGW-w64 samt GTK3 toolkittet.
+Derefter kan du klone programmet fra GitHub, redigere i det hvis du ønsker, og så compile det.
 
 Hvis du ønsker at bidrage til projektet er du velkommen til at åbne en pull request.
