@@ -13,18 +13,18 @@ ICON_SIZE = 3 / 5
 # De farver som man kan vælge, samt deres farvekode i RGB.
 # Hvis du vil tilføje flere, kan du bare skrive flere nedenunder i samme format.
 COLORS = {
-    "grå": (60, 64, 72),
-    "hvid": (240, 240, 240),
+    "gray": (60, 64, 72),
+    "white": (240, 240, 240),
     "lime": (88, 240, 0),
-    "grøn": (0, 224, 157),
+    "green": (0, 224, 157),
     "mint": (170, 255, 195),
-    "brun": (194, 124, 14),
+    "brown": (194, 124, 14),
     "orange": (255, 125, 40),
-    "blå": (75, 201, 255),
+    "blue": (75, 201, 255),
     "cyan": (0, 255, 255),
     "pink": (255, 161, 251),
-    "lilla": (90, 66, 210),
-    "gul": (255, 230, 0),
-    "rød": (255, 67, 78),
-    "lys rød": (255, 92, 95),
+    "purple": (90, 66, 210),
+    "yellow": (255, 230, 0),
+    "red": (255, 67, 78),
+    "light red": (255, 92, 95),
 }
