@@ -1,13 +1,13 @@
 # EmojiGenerator
-Generér enkle og farverige emojis fra enhver SVG fil, primært egnet til Discord emojis.
+Generate simple and colorful emojis from any SVG file, primarily suitable for Discord emojis.
 ---
-Jeg har arbejdet på et program til automatisk at generere forskellige emojier og ikoner, primært til brug på Discord, og jeg har valgt at gøre det open-source og uploade det til frit brug.
+I've been working on a program to automatically generate various emojis and icons, primarily for use on Discord, and I've decided to make it open-source and upload it for free use.
 
-Vær venlig at respekter ejerskabet af koden, og lade vær med at frigive det som jeres egen.
+Please respect the ownership of the code and don't release it as your own.
 
 ---
 
-Her er et par eksempler på, hvad man kan lave med programmet. Ikonerne er fra FontAwesome:
+Here are a few examples of what you can do with the program. The icons are from FontAwesome:
 <p>
     <img src="https://github.com/barealek/EmojiGenerator/blob/main/eksempler/battery.png?raw=true" height="64" width="64">
     <img src="https://github.com/barealek/EmojiGenerator/blob/main/eksempler/cloud.png?raw=true" height="64" width="64">
@@ -20,7 +20,7 @@ Her er et par eksempler på, hvad man kan lave med programmet. Ikonerne er fra F
 
 ---
 
-Hvis du har lyst til selv at bygge programmet, skal du installere Python (>3.9), MinGW-w64 samt GTK3 toolkittet.
-Derefter kan du klone programmet fra GitHub, redigere i det hvis du ønsker, og så køre det.
+If you want to compile the program yourself, install Python (>3.9), MinGW-w64 and the GTK3 toolkit.
+Then you can clone the program from GitHub, edit it if you wish, and run the `build.sh` script.
 
-Hvis du ønsker at bidrage til projektet er du velkommen til at åbne en pull request.
+If you want to contribute to the project, feel free to open a pull request.
